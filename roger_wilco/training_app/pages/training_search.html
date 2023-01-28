@@ -3,11 +3,10 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Training Dashboard</title>
+    <title></title>
 </head>
 <body>
-
-    <div class="lcontainer">
+    <div class="logocontainer">
         <img src="html_assets/logo_color.svg" alt="Roger Wilco" class="logo" width="500" height="250">
     </div>
 
@@ -33,8 +32,17 @@
 
     <!--Display information from the database for the current selection in navigation-->
 
-    <div class="info" id="ct">
-        <p>This container is a placeholder for current training info</p>
+    <div class="search_info">
+        <form action="#">
+            <label for="t_code">T-Code</label> <input type="number" name="t_code">
+            <label for="qual_title">Qualification</label> <input type="text" name="qual_title">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="results">
+        <p>This container is a placeholder for training search results</p>
     </div>
 
 </body>
