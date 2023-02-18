@@ -1,0 +1,51 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    display:block
+}
+
+                                    /*Background colors added to see container positions. Will delete when completed*/
+
+/*styles for left parent container*/
+    .leftcont{
+        width: 25%;
+        height: 100vh;
+        float: left;
+        background-color: aquamarine;
+    }
+
+    /*styles for the logo container and its elements*/
+        .locon{
+            height: 33vh;
+        }
+
+            .logo{
+                margin-left: -6em;
+            }
+    /*styles for the nav container and its elements*/
+        .nav{
+            height: 33vh;
+        }
+
+            .navlinks{
+                margin-top: 5em;
+            }
+
+    /*styles for bottom nav links (log out and support)*/
+        .nav2{
+            height: 33vh;
+        }
+
+            .nav2links{
+                margin-top: 10em;
+            }
+
+  /*styles for right parent container*/
+    .rightcont{
+        width: 75%;
+        float: right;
+        background-color: coral;
+    }
