@@ -16,7 +16,7 @@ class Employee(models.Model):
 	State = models.CharField(max_length=10)
 	Zip_Code = models.IntegerField(default=00000)
 	Job_Assignment = models.CharField(max_length=25)
-	Is_Supervisor = models.BooleanField(input_type='checkbox')
+	Is_Supervisor = models.BooleanField()
 #	Department_ID = models.ForeignKey(Department, on_delete=models.CASCADE)
 	
 
