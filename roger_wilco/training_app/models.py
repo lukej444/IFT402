@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Department(models.Model):
 	Department_ID = models.IntegerField(primary_key=True)
 	Department_Name = models.CharField(max_length=50)
@@ -17,6 +16,7 @@ class Employee(models.Model):
 	State = models.CharField(max_length=10)
 	Zip_Code = models.IntegerField(default=00000)
 	Job_Assignment = models.CharField(max_length=25)
+	Is_Supervisor = models.BooleanField(input_type='checkbox')
 #	Department_ID = models.ForeignKey(Department, on_delete=models.CASCADE)
 	
 
