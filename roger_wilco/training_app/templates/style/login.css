@@ -1,5 +1,6 @@
 body {
 	background-color: whitesmoke;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
 	font font-size: 20px;
 }
 
@@ -16,7 +17,6 @@ body {
 }
 
 .unamebtntxt{
-	font-family: "Times New Roman";
 	font-size: 20px;
 	margin-right: 10px;
 }
@@ -26,7 +26,6 @@ body {
 }
 
 .pswdbtntxt{
-	font-family: "Times New Roman";
 	font-size: 20px;
 	margin-right: 10px;
 }
@@ -37,4 +36,8 @@ body {
 
 .container{
 	text-align: center;
+}
+
+.loginbtn{
+	margin-left: 15em;
 }
